@@ -34,6 +34,9 @@ installing all required packages which are present in requirement.txt:
 
 	python manage.py runserver
 
+### To set the sender's email address and password, open email_automation/settings.py.
+	At line no. 132 add email address
+	At line no. 133 add the password
 
 
 
