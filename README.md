@@ -4,7 +4,6 @@
 ## Django Server for Email Automation
 
 Basic django project which accepts email, receiver's name and city and sends an email to the respective person.
-send_mail() method present in django.core.mail module is used to send the email.
 
 
 ## Steps to run the project:
