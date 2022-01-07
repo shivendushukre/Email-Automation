@@ -34,6 +34,7 @@ def SendMail(request):
         msg = f'Temperature of the city is {temp} {emoji}'
         email_from = settings.EMAIL_HOST_USER
         recipient_list = [email, ]
+        # sending email
         send_mail(subject, msg, email_from,
                   recipient_list, fail_silently=False)
 
