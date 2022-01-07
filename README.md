@@ -34,6 +34,10 @@ installing all required packages which are present in requirement.txt:
 
 	python manage.py runserver
 
-
+### To set the sender's email address and password, open email_automation/settings.py.
+	At line no. 132 add email address
+	Eg. EMAIL_HOST_USER = 'test@gmail.com'
+	At line no. 133 add the password
+	Eg. EMAIL_HOST_PASSWORD = 'test@123'
 
 
