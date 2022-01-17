@@ -1,7 +1,7 @@
-# XtremeTech-Assignment
 
 
-## Django Server for Email Automation
+
+# Django Server for Email Automation
 
 Basic django project which accepts email, receiver's name and city and sends an email to the respective person.
 To send an email type in receiver's email address, his/her name and the city. Click on the submit button to send the mail.
